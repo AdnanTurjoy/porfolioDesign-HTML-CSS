@@ -5,14 +5,18 @@ body{
 h1{
     font-size: 50px;
 }
+p{
+    color: dimgray;
+}
 .name-highlight{
     color: orange;
 }
 .half-header{
-    width: 40%;
+    width: 42%;
     height: 100%;
     float: left;
     margin-left: 40px;
+    margin-right: 25px;
    
 }
 .half-header img{
@@ -55,13 +59,15 @@ section{
 }
 .experiance{
     margin-left: 20px;
+    
 }
 .single-experience{
    margin-top: 30px;
     box-shadow: 10px 10px 40px gray;
     border-radius: 10px;
     height: 100%;
-    padding: 20px;
+    padding: 15px;
+    
    
 }
 #web{
@@ -72,7 +78,11 @@ section{
 }
 #baby{
     border-left: 5px solid;
-    border-image: linear-gradient(180deg,blue,rgba(0, 81, 255, 0.685));
+    border-image: linear-gradient(180deg,blue,cyan);
     border-image-slice: 1;
     border-radius: 5px;
+}
+footer p{
+    margin-top: 80px;
+    text-align: center;
 }
